@@ -14,5 +14,4 @@ public class StepThreeTaskTwo {
             System.out.print("не парное число");
         }
     }
-
 }
