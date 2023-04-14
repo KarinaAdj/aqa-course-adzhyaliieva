@@ -1,6 +1,7 @@
 package com.course.syntax;
 import java.util.Scanner;
 public class StepThreeTaskTwo {
+
     public static void main(String[] args) {
         System.out.print("Введите любое число ");
         Scanner scan = new Scanner(System.in);
@@ -9,7 +10,7 @@ public class StepThreeTaskTwo {
         if (number % 2 == 0) {
             System.out.print("парное число");
         }
-        else if (number % 2 != 0) {
+        else {
             System.out.print("не парное число");
         }
     }
