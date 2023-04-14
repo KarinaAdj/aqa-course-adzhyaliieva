@@ -1,6 +1,7 @@
 package com.course.syntax;
 import java.util.Scanner;
 public class StepFourTaskOne {
+
     public static void main(String[] args) {
         System.out.print("Enter number ");
         Scanner scan = new Scanner(System.in);
@@ -12,10 +13,10 @@ public class StepFourTaskOne {
         }
         else {
             for (int i = 0; i <= number; i++) {
-                if (i % 2 == 0 && i > 0) {
+                if (i % 2 == 0) {
                     System.out.println("The number '" + i + "' is even");
                 }
-                else if (i % 3 == 0 && i > 0) {
+                else if (i % 3 == 0) {
                     System.out.println("The number '" + i + "' multiple to 3");
                 }
                 else {
