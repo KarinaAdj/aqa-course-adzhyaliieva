@@ -3,7 +3,7 @@ package com.course.syntax;
 public class StepFirst {
     public static void main(String[] args) {
         byte byteVarName = 15;
-        short shortVarName = -333;
+        short shotVarName = 333;
         int intVarName = 26;
         long longVarName = 21470;
         float floatVarName = 20.55f;
@@ -11,7 +11,7 @@ public class StepFirst {
         char charVarName = 'a';
         boolean booleanVarName = true;
 
-        System.out.println("result: " + " " + byteVarName + " " + shortVarName + " " + intVarName + " " +
+        System.out.println("result: " + " " + byteVarName + " " + shotVarName + " " + intVarName + " " +
                 longVarName + " " + floatVarName + " " + doubleVarName + " " + charVarName + " " + booleanVarName);
     }
 }
