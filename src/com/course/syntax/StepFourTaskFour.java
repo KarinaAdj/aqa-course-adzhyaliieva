@@ -1,6 +1,7 @@
 package com.course.syntax;
 import java.util.Scanner;
 public class StepFourTaskFour {
+
     public static void main(String[] args) {
         int age = -1;
 
@@ -15,11 +16,5 @@ public class StepFourTaskFour {
         while (age <= 0 || age > 140);
 
         System.out.println ("great");
-
-
-
-
-
-
     }
 }
