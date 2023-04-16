@@ -1,25 +1,20 @@
 package com.course.syntax;
 import java.util.Scanner;
-public class StepFourTaskFour {
-    public static void main(String[] args) {
-        int age = -1;
 
-        do {
+public class StepFourTaskFour {
+
+    public static void main(String[] args) {
+        while (true) {
             System.out.print("Enter your age ");
             Scanner scan = new Scanner(System.in);
-            age = scan.nextInt();
+            int age = scan.nextInt();
             if (age <= 0 || age > 140) {
-                System.out.println ("error");
+                System.out.println("error");
+            }
+            else {
+                System.out.println("great");
+                break;
             }
         }
-        while (age <= 0 || age > 140);
-
-        System.out.println ("great");
-
-
-
-
-
-
     }
 }
